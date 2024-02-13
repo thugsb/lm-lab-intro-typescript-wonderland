@@ -32,7 +32,7 @@ function failImmediately() {
 
 const numberBiggerThanThree: number = 11;
 
-function checkEntryCodeIsBiggerThanThree(code: any) {
+function checkEntryCodeIsBiggerThanThree(code: number) {
   return code > 3;
 }
 
